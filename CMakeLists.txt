@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16.5)
 
-project(matrix C)
+project(linearalgebra C)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror -Wextra -Wstrict-prototypes -pedantic -pedantic-errors")
 
@@ -13,4 +13,4 @@ set(SOURCE_FILES
         ./src/equations.c
 )
 
-add_executable(matrix ${SOURCE_FILES})
+add_executable(linearalgebra ${SOURCE_FILES})
