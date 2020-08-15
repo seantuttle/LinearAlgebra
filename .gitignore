@@ -1,0 +1,5 @@
+cmake-build-gcc/*
+cmake-build-clang/*
+build/*
+.vscode/*
+.idea/*
