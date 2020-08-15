@@ -14,7 +14,7 @@ int main(void)
 {
     clock_t tic = clock();
     
-    printf("%d", -6%2);
+    printf("Use this file to test out features of the Linear Algebra library!\n");
 
 
     clock_t toc = clock();

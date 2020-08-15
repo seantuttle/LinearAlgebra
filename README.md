@@ -1,0 +1,4 @@
+# LinearAlgebra
+A small library containing most of the material that was covered in my Methods of Linear Algebra class.
+
+This library has not been extensively tested, as it was just meant to be a small project that would help me brush up on my linear algebra. I do know that there is a bug in my shifted QR algorithm that is used to find eigenvalues, but I haven't been able to identify it. Also, this library doesn't support complex arithmetic, since complex numbers didn't cross my mind until I got to eigenvalues (aka the end), and I didn't care to go back and reimplement everything. If you would like to debug my QR algorithm (or anything else), reimplement some basic functions to allow complex arithmetic, or even implement completely new features (SVD???), feel free to submit a pull request.
